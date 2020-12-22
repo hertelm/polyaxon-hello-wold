@@ -1,0 +1,10 @@
+---
+version: 1
+
+kind: experiment
+
+build:
+  image: ubuntu:20.04
+
+run:
+  cmd: echo "hello world"
